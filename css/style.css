@@ -462,6 +462,7 @@ section{
     }
 
     .home{
+        min-height: 150vh;
         background-position: left;
         justify-content: center;
         text-align: center;
