@@ -459,7 +459,7 @@ section{
         position: relative;
         left:0%;
     }
-    .about .row .image {
+    .about .row .row1 {
         font-size: 1.6rem;
         color: #ccc;
         line-height: 1.8;
@@ -573,7 +573,7 @@ section{
         position: relative;
         left:0%;
     }
-    .about .row .image {
+    .about .row .row1 {
         font-size: 1.6rem;
         color: #ccc;
         line-height: 1.8;
@@ -687,7 +687,7 @@ section{
         position: relative;
         left:0%;
     }
-    .about .row .image {
+    .about .row .row1 {
         font-size: 1.6rem;
         color: #ccc;
         line-height: 1.8;
