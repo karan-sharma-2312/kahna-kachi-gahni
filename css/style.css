@@ -260,12 +260,13 @@ section{
     display: block;
     height: 45px;
     outline: none;
-    font-size: 2.5rem;
+    font-weight: 500;
+    border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
   }
 .link1:hover{
-    color: crimson;
+    color:  var(--main-color);
     background: none;
   }
 .contact .contact-content {
@@ -302,11 +303,6 @@ section{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
-
-
-
-
-
 
 .footer{
     background:var(--black);
@@ -390,7 +386,7 @@ section{
         position: absolute;
         top:40%; 
         right: 14%;
-        height: calc(100vh - 9.5rem);
+     
     }
 
     .header .navbar.active{
@@ -478,12 +474,13 @@ section{
         display: block;
         height: 45px;
         outline: none;
-        font-size: 2.0rem;
+        font-weight: 500;
+        border-radius: 6px;
         cursor: pointer;
         flex-wrap: nowrap;
         position: relative;
-        top: 12px;
-        text-transform: none;
+        top: 15px;
+       
       }
     .footer .links{
         display: flex;
@@ -504,7 +501,7 @@ section{
         position: absolute;
         top:40%; 
         right: 14%;
-        height: calc(100vh - 9.5rem);
+  
     }
 
     .header .navbar.active{
@@ -592,12 +589,13 @@ section{
         display: block;
         height: 45px;
         outline: none;
-        font-size: 2.0rem;
+        font-weight: 500;
+        border-radius: 6px;
         cursor: pointer;
         flex-wrap: nowrap;
         position: relative;
-        top: 12px;
-        text-transform: none;
+        top: 15px;
+
       }
     .footer .links{
         display: flex;
@@ -618,7 +616,7 @@ section{
         position: absolute;
         top:40%; 
         right: 14%;
-        height: calc(100vh - 9.5rem);
+
     }
 
     .header .navbar.active{
@@ -706,12 +704,13 @@ section{
         display: block;
         height: 45px;
         outline: none;
-        font-size: 2.0rem;
+        font-weight: 500;
+        border-radius: 6px;
         cursor: pointer;
         flex-wrap: nowrap;
         position: relative;
-        top: 12px;
-        text-transform: none;
+        top: 15px;
+       
       }
     .footer .links{
         display: flex;
