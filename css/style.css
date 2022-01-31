@@ -417,7 +417,7 @@ section{
         right: 2rem;
     }
 
-    .home{ min-height: 145vh;
+    .home{ min-height: 150vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -426,7 +426,7 @@ section{
         max-width: 60rem;
         position: relative;
         bottom: 120px;
-        top: 0px;
+        top: 20px;
     }
 
     .home .content h3{
@@ -533,7 +533,7 @@ section{
         right: 2rem;
     }
 
-    .home{ min-height: 145vh;
+    .home{ min-height: 150vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -542,7 +542,7 @@ section{
         max-width: 60rem;
         position: relative;
         bottom: 120px;
-        top: 0px;
+        top:20px;
     }
 
     .home .content h3{
@@ -649,7 +649,7 @@ section{
         right: 2rem;
     }
 
-    .home{ min-height: 145vh;
+    .home{ min-height: 150vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -658,7 +658,7 @@ section{
         max-width: 60rem;
         position: relative;
         bottom: 120px;
-        top: 0px;
+        top:20px;
     }
 
     .home .content h3{
