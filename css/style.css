@@ -119,14 +119,6 @@ section{
     display: none;
 }
 
-
-
-
-
-
-
-
-
 .home{
     min-height: 100vh;
     display: flex;
@@ -184,18 +176,18 @@ section{
 
 }
 
-.about .row .image{
+.about .row .row1{
     flex:1 1 45rem;
 }
 
-.about .row .image{
+.about .row .row1{
     font-size: 1.6rem;
     color:#ccc;
     padding:1rem 0;
     line-height: 1.8;
     text-align: justify;
 }
-.about .row .image ul{
+.about .row .row1 ul{
     font-size: 1.7rem;
     color:#ccc;
     padding:1rem 0;
@@ -220,8 +212,6 @@ section{
 }
 
 
-
-
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -234,26 +224,14 @@ section{
     padding: 2rem;
 }
 
-.products .box-container .box .icons a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    border:var(--border);
-    color:#fff;
-    margin:.3rem;
-}
 
-.products .box-container .box .icons a:hover{
-    background:var(--main-color);
-}
 
 .products .box-container .box .image{
     padding: 2.5rem 0;
 }
 
 .products .box-container .box .image img{
-    height: 14rem;
+    height: 19rem;
 }
 
 .products .box-container .box .content h3{
@@ -261,14 +239,7 @@ section{
     font-size: 2.5rem;
 }
 
-.products .box-container .box .content .stars{
-    padding: 1.5rem;
-}
 
-.products .box-container .box .content .stars i{
-    font-size: 1.7rem;
-    color: var(--main-color);
-}
 
 .products .box-container .box .content .price{
     color:#fff;
@@ -390,17 +361,6 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
