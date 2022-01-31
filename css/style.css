@@ -417,7 +417,7 @@ section{
         right: 2rem;
     }
 
-    .home{ min-height: 150vh;
+    .home{ min-height: 140vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -425,7 +425,8 @@ section{
     .home .content {
         max-width: 60rem;
         position: relative;
-        bottom: 98px;
+        bottom: 120px;
+        top: 0px;
     }
 
     .home .content h3{
@@ -433,7 +434,7 @@ section{
     }
 
     .home .content p{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .home .machineimg .machineimg1 {
         left: -220%;
@@ -532,7 +533,7 @@ section{
         right: 2rem;
     }
 
-    .home{ min-height: 150vh;
+    .home{ min-height: 140vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -540,7 +541,8 @@ section{
     .home .content {
         max-width: 60rem;
         position: relative;
-        bottom: 98px;
+        bottom: 120px;
+        top: 0px;
     }
 
     .home .content h3{
@@ -548,7 +550,7 @@ section{
     }
 
     .home .content p{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .home .machineimg .machineimg1 {
         left: -220%;
@@ -647,7 +649,7 @@ section{
         right: 2rem;
     }
 
-    .home{ min-height: 150vh;
+    .home{ min-height: 140vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -655,7 +657,8 @@ section{
     .home .content {
         max-width: 60rem;
         position: relative;
-        bottom: 98px;
+        bottom: 120px;
+        top: 0px;
     }
 
     .home .content h3{
@@ -663,7 +666,7 @@ section{
     }
 
     .home .content p{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .home .machineimg .machineimg1 {
         left: -220%;
