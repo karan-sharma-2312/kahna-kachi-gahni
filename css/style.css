@@ -253,7 +253,7 @@ section{
 }
 
 .products .box-container .box .image img{
-    height: 25rem;
+    height: 14rem;
 }
 
 .products .box-container .box .content h3{
@@ -420,7 +420,7 @@ section{
 
 }
 
-@media (max-width:768px){
+@media (max-width:947px){
 
     #menu-btn{
         display: inline-block;
@@ -461,8 +461,7 @@ section{
         right: 2rem;
     }
 
-    .home{
-        min-height: 150vh;
+    .home{ min-height: 150vh;
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -478,7 +477,235 @@ section{
     }
 
     .home .content p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+    .home .machineimg .machineimg1 {
+        left: -220%;
+        position: relative;
+        width: 121%;
+        top: 238px;
+    }
+    .home .content img {
+        position: relative;
+        width: 60%;
+        bottom: 0px;
+        left: 0px;
+    }
+    .contact .contact-content .info .head{
+        font-weight: 500;
+        font-size: 2.0rem;
+    }
+    .contact .contact-content {
+        position: relative;
+        left:0%;
+    }
+    .about .row .image {
+        font-size: 1.6rem;
+        color: #ccc;
+        line-height: 1.8;
+        text-align: justify;
+        flex: 1 1 45rem;
+        padding: 2rem;
+    }
+    .about .row .content {
+        flex: 1 1 45rem;
+        padding: 2rem;
+        position: relative;
+        bottom: 50px;
+    }
+    .link1{
+        color: #fff;
+        display: block;
+        height: 45px;
+        outline: none;
+        font-size: 2.0rem;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        position: relative;
+        top: 12px;
+        text-transform: none;
+      }
+    .footer .links{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:2rem 0;
+        gap:0rem;
+    }
+
+}
+@media (max-width:690px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:40%; 
+        right: 14%;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+    .header .navbar a{
+        margin:0 1rem;
+        font-size: 1.6rem;
+        color:#fff;
+    }
+    
+    .header .navbar a:hover{
+        color:var(--main-color);
+        border-bottom: .1rem solid var(--main-color);
+        padding-bottom: .5rem;
+    }
+
+    /* .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    } */
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{ min-height: 150vh;
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content {
+        max-width: 60rem;
+        position: relative;
+        top: 20px;
+    }
+
+    .home .content h3{
+        font-size: 3.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.2rem;
+    }
+    .home .machineimg .machineimg1 {
+        left: -220%;
+        position: relative;
+        width: 121%;
+        top: 238px;
+    }
+    .home .content img {
+        position: relative;
+        width: 60%;
+        bottom: 0px;
+        left: 0px;
+    }
+    .contact .contact-content .info .head{
+        font-weight: 500;
+        font-size: 2.0rem;
+    }
+    .contact .contact-content {
+        position: relative;
+        left:0%;
+    }
+    .about .row .image {
+        font-size: 1.6rem;
+        color: #ccc;
+        line-height: 1.8;
+        text-align: justify;
+        flex: 1 1 45rem;
+        padding: 2rem;
+    }
+    .about .row .content {
+        flex: 1 1 45rem;
+        padding: 2rem;
+        position: relative;
+        bottom: 50px;
+    }
+    .link1{
+        color: #fff;
+        display: block;
+        height: 45px;
+        outline: none;
+        font-size: 2.0rem;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        position: relative;
+        top: 12px;
+        text-transform: none;
+      }
+    .footer .links{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:2rem 0;
+        gap:0rem;
+    }
+
+}
+@media (max-width:500px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:40%; 
+        right: 14%;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+    .header .navbar a{
+        margin:0 1rem;
+        font-size: 1.6rem;
+        color:#fff;
+    }
+    
+    .header .navbar a:hover{
+        color:var(--main-color);
+        border-bottom: .1rem solid var(--main-color);
+        padding-bottom: .5rem;
+    }
+
+    /* .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    } */
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{ min-height: 150vh;
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content {
+        max-width: 60rem;
+        position: relative;
+        top: 20px;
+    }
+
+    .home .content h3{
+        font-size: 3.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.2rem;
     }
     .home .machineimg .machineimg1 {
         left: -220%;
