@@ -298,9 +298,16 @@ header .navbar a:hover{
     background:#fff;
     text-align: center;
 }
-
+.footer p span{
+    color:var(--green);
+}
 .footer span{
     color:var(--green);
+}
+.footer .note {
+    position: relative;
+    float: left;
+    font-size: large;
 }
 
 
